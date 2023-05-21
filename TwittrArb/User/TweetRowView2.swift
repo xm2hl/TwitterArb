@@ -1,10 +1,6 @@
-
 import SwiftUI
-
-
-struct TweetRowView: View {
+struct TweetRowView2: View {
     let ttext: LetView
-    let vvdi: YouTubeView
     var body: some View {
         VStack (alignment: .trailing){
             HStack{
@@ -34,12 +30,9 @@ struct TweetRowView: View {
             }
             VStack{
                 Text(ttext.text)
+                    .font(.subheadline)
                     .padding(.leading, 200)
                     .padding(.bottom, 50)
-                    .font(.subheadline)
-                YouTubeView(Video: "jhjkv")
-                    .frame(width: 300, height: 200)
-            
                 HStack{
                     Button {
                         // action goes here
@@ -93,8 +86,8 @@ struct TweetRowView: View {
     }
 }
 
-struct TweetRowView_Previews: PreviewProvider {
+struct TweetRowView2_Previews: PreviewProvider {
     static var previews: some View {
-        TweetRowView(ttext: .init(name: "mamdouh", imagUser: "Sicons-Basic-Round-Social-Twitter.512", UserName: "xm2hl", text: "ttiadkvld"), vvdi: .init(Video: "https://www.youtube.com/watch?v=gpLBMsyjZc0"))
+        TweetRowView2(ttext: .init(name: "ahmed32", imagUser: "kallll", UserName: "@ahmed", text: "صباح الخير"))
     }
 }

@@ -2,37 +2,44 @@
 import SwiftUI
 
 struct MainTabView: View {
-    @State private var selectedIndex = 0
+    @State private var selectedIndex = 4
     var body: some View {
         TabView(selection: $selectedIndex){
-            HomePagView()
+            Maintenance()
                 .onTapGesture{
                     self.selectedIndex = 0
                 }
                 .tabItem{
-                    Image(systemName: "house")
+                    Image(systemName: "envelope")
                 }.tag(0)
-            HomePagView()
+            Maintenance()
                 .onTapGesture{
                     self.selectedIndex = 1
                 }
                 .tabItem{
-                    Image(systemName: "magnifyingglass")
+                    Image(systemName: "bell")
                 }.tag(1)
-            HomePagView()
+            Maintenance()
                 .onTapGesture{
                     self.selectedIndex = 2
                 }
                 .tabItem{
-                    Image(systemName: "bell")
+                    Image(systemName: "mic")
                 }.tag(2)
-            HomePagView()
+            ExploreView()
                 .onTapGesture{
                     self.selectedIndex = 3
                 }
                 .tabItem{
-                    Image(systemName: "envelope")
+                    Image(systemName: "magnifyingglass")
                 }.tag(3)
+            HomePagView()
+                .onTapGesture{
+                    self.selectedIndex = 4
+                }
+                .tabItem{
+                    Image(systemName: "house")
+                }.tag(4)
         }
         
     }

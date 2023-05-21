@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1816532D2A19BAF900087953 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816532C2A19BAF900087953 /* UserView.swift */; };
+		1816532F2A19BBA300087953 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816532E2A19BBA300087953 /* ExploreView.swift */; };
+		181653312A19C00600087953 /* TweetRowView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181653302A19C00600087953 /* TweetRowView1.swift */; };
+		181653352A19C3E900087953 /* MapKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181653342A19C3E900087953 /* MapKitView.swift */; };
+		181653372A19DAD000087953 /* TweetRowView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181653362A19DAD000087953 /* TweetRowView2.swift */; };
+		181653392A19DDE100087953 /* Maintenance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181653382A19DDE100087953 /* Maintenance.swift */; };
+		1816533B2A19F7AF00087953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1816533A2A19F7AF00087953 /* Assets.xcassets */; };
+		18EA3CCE2A18F3BA00CDBE90 /* LetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA3CCD2A18F3BA00CDBE90 /* LetView.swift */; };
+		18EA3CD12A190D9200CDBE90 /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 18EA3CD02A190D9200CDBE90 /* YouTubePlayerKit */; };
+		18EA3CD32A190DD200CDBE90 /* YouTubeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA3CD22A190DD200CDBE90 /* YouTubeView.swift */; };
+		18EA3CD52A194F1100CDBE90 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA3CD42A194F1100CDBE90 /* ProfileView.swift */; };
 		18ECA92C2A18C9BF00299625 /* TwittrArbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECA92B2A18C9BF00299625 /* TwittrArbApp.swift */; };
 		18ECA92E2A18C9BF00299625 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ECA92D2A18C9BF00299625 /* LaunchScreen.swift */; };
 		18ECA9302A18C9C000299625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18ECA92F2A18C9C000299625 /* Assets.xcassets */; };
@@ -17,6 +28,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1816532C2A19BAF900087953 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		1816532E2A19BBA300087953 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		181653302A19C00600087953 /* TweetRowView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRowView1.swift; sourceTree = "<group>"; };
+		181653342A19C3E900087953 /* MapKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitView.swift; sourceTree = "<group>"; };
+		181653362A19DAD000087953 /* TweetRowView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRowView2.swift; sourceTree = "<group>"; };
+		181653382A19DDE100087953 /* Maintenance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maintenance.swift; sourceTree = "<group>"; };
+		1816533A2A19F7AF00087953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
+		18EA3CCD2A18F3BA00CDBE90 /* LetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetView.swift; sourceTree = "<group>"; };
+		18EA3CD22A190DD200CDBE90 /* YouTubeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeView.swift; sourceTree = "<group>"; };
+		18EA3CD42A194F1100CDBE90 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		18ECA9282A18C9BF00299625 /* TwittrArb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwittrArb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18ECA92B2A18C9BF00299625 /* TwittrArbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwittrArbApp.swift; sourceTree = "<group>"; };
 		18ECA92D2A18C9BF00299625 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
@@ -32,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EA3CD12A190D9200CDBE90 /* YouTubePlayerKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,13 +81,16 @@
 			children = (
 				18ECA9402A18CD8A00299625 /* HomePag */,
 				18ECA93E2A18CD7900299625 /* User */,
-				18ECA93D2A18CD6A00299625 /* New Group1 */,
-				18ECA93C2A18CD6500299625 /* New Group */,
+				18ECA93D2A18CD6A00299625 /* Profile */,
+				18ECA93C2A18CD6500299625 /* MapKit */,
 				18ECA93B2A18CB3300299625 /* MainTan */,
 				18ECA92B2A18C9BF00299625 /* TwittrArbApp.swift */,
 				18ECA92D2A18C9BF00299625 /* LaunchScreen.swift */,
 				18ECA92F2A18C9C000299625 /* Assets.xcassets */,
+				1816533A2A19F7AF00087953 /* Assets.xcassets */,
 				18ECA9312A18C9C000299625 /* Preview Content */,
+				18EA3CCD2A18F3BA00CDBE90 /* LetView.swift */,
+				18EA3CD22A190DD200CDBE90 /* YouTubeView.swift */,
 			);
 			path = TwittrArb;
 			sourceTree = "<group>";
@@ -86,24 +111,31 @@
 			path = MainTan;
 			sourceTree = "<group>";
 		};
-		18ECA93C2A18CD6500299625 /* New Group */ = {
+		18ECA93C2A18CD6500299625 /* MapKit */ = {
 			isa = PBXGroup;
 			children = (
+				181653342A19C3E900087953 /* MapKitView.swift */,
 			);
-			path = "New Group";
+			path = MapKit;
 			sourceTree = "<group>";
 		};
-		18ECA93D2A18CD6A00299625 /* New Group1 */ = {
+		18ECA93D2A18CD6A00299625 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				18EA3CD42A194F1100CDBE90 /* ProfileView.swift */,
+				1816532C2A19BAF900087953 /* UserView.swift */,
+				1816532E2A19BBA300087953 /* ExploreView.swift */,
 			);
-			path = "New Group1";
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		18ECA93E2A18CD7900299625 /* User */ = {
 			isa = PBXGroup;
 			children = (
 				18ECA9432A18D18300299625 /* TweetRowView.swift */,
+				181653302A19C00600087953 /* TweetRowView1.swift */,
+				181653362A19DAD000087953 /* TweetRowView2.swift */,
+				181653382A19DDE100087953 /* Maintenance.swift */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -132,6 +164,9 @@
 			dependencies = (
 			);
 			name = TwittrArb;
+			packageProductDependencies = (
+				18EA3CD02A190D9200CDBE90 /* YouTubePlayerKit */,
+			);
 			productName = TwittrArb;
 			productReference = 18ECA9282A18C9BF00299625 /* TwittrArb.app */;
 			productType = "com.apple.product-type.application";
@@ -160,6 +195,9 @@
 				Base,
 			);
 			mainGroup = 18ECA91F2A18C9BF00299625;
+			packageReferences = (
+				18EA3CCF2A190D9200CDBE90 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
+			);
 			productRefGroup = 18ECA9292A18C9BF00299625 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -175,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18ECA9332A18C9C000299625 /* Preview Assets.xcassets in Resources */,
+				1816533B2A19F7AF00087953 /* Assets.xcassets in Resources */,
 				18ECA9302A18C9C000299625 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,10 +225,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181653352A19C3E900087953 /* MapKitView.swift in Sources */,
+				18EA3CD52A194F1100CDBE90 /* ProfileView.swift in Sources */,
+				18EA3CCE2A18F3BA00CDBE90 /* LetView.swift in Sources */,
 				18ECA9442A18D18300299625 /* TweetRowView.swift in Sources */,
+				18EA3CD32A190DD200CDBE90 /* YouTubeView.swift in Sources */,
+				1816532F2A19BBA300087953 /* ExploreView.swift in Sources */,
 				18ECA92E2A18C9BF00299625 /* LaunchScreen.swift in Sources */,
 				18ECA93A2A18CB2900299625 /* MainTabView.swift in Sources */,
+				181653372A19DAD000087953 /* TweetRowView2.swift in Sources */,
 				18ECA9422A18CEAF00299625 /* HomePagView.swift in Sources */,
+				181653312A19C00600087953 /* TweetRowView1.swift in Sources */,
+				181653392A19DDE100087953 /* Maintenance.swift in Sources */,
+				1816532D2A19BAF900087953 /* UserView.swift in Sources */,
 				18ECA92C2A18C9BF00299625 /* TwittrArbApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,6 +374,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -354,6 +403,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -389,6 +439,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		18EA3CCF2A190D9200CDBE90 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		18EA3CD02A190D9200CDBE90 /* YouTubePlayerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18EA3CCF2A190D9200CDBE90 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */;
+			productName = YouTubePlayerKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 18ECA9202A18C9BF00299625 /* Project object */;
 }
